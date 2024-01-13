@@ -2,10 +2,13 @@
 <html lang="en" dir="ltr">
 
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+
     <title>JavaScript Mini Grand Piano</title>
+
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script src="script.js" defer></script>
   </head>
 
@@ -15,15 +18,19 @@
 
       <header>
         <h2>Mini Grand PIANO</h2>
+
         <div class="column volume-slider">
           <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any">
         </div>
+
         <div class="column keys-checkbox">
           <span>Toggle Keys</span><input type="checkbox" checked>
         </div>
+
       </header>
 
       <ul class="piano-keys">
+
         <li class="key white" data-key="a"><span>a</span></li>
         <li class="key black" data-key="w"><span>w</span></li>
         <li class="key white" data-key="s"><span>s</span></li>
@@ -41,7 +48,9 @@
         <li class="key white" data-key="l"><span>l</span></li>
         <li class="key black" data-key="p"><span>p</span></li>
         <li class="key white" data-key=";"><span>;</span></li>
+
       </ul>
+
     </div>
 
   </body>
